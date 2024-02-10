@@ -1,0 +1,214 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #e66800;  
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;   
+}
+li {
+    float: right;
+}
+li a {
+    display: block;
+    color: white;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+#logo{
+    color: white;
+    padding: 0px;
+    float: left; 
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.slider {
+    position: relative;
+    width: 100%; 
+    height: 400px;
+    overflow: hidden;
+}
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    animation: fade 10s infinite; 
+}
+#image0 {
+    animation-delay: 0s;
+}
+#image1 {
+    animation-delay: 3s;
+}
+#image2 {
+    animation-delay: 3s;
+}
+#image3 {
+    animation-delay: 3s; 
+}
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    33.33% {
+        opacity: 1;
+    }
+    66.66% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.pizza-specials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 100x;
+} 
+  div.container {
+    text-align: center;
+    padding: 0px ;
+}
+div.col {   
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    align-items: center;
+    margin-right: 70px;
+    padding: 15px;
+}
+#specials{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;    
+}
+#sup,#marg,#vegge
+{
+    width: 300px; 
+    height: 200px; 
+    max-width: 100%;
+    display: block; 
+    margin: 0 auto; 
+}
+#pizza1:hover {
+    transform: rotate(360deg);
+    transition: transform 2s;
+}
+#pizza3:hover {
+    transform: rotate(-360deg);
+    transition: transform 2s;
+}
+#pizza2:hover {
+    transform: rotateY(180deg);
+    transition: transform 2s;    
+}
+.contact-form{
+ align-items: center;
+ align-content: center;
+ text-align: center;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #e66800;
+    color: white;
+}
+div.reviews{
+    color: #999; 
+    font-weight: lighter
+}
+.testimonials{
+    text-align: center;
+}
+.cta{
+    text-align: center;   
+}
+form { 
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+}
+.texts{
+    align-items: left;
+    align-self: auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-right: 430px;
+}
+#texts{
+    align-items: left;
+    align-self: auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-right: 370px; 
+}
+#message{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+    height: 70px;
+    align-self: auto;
+    margin-left: 0px; 
+    border: none;
+}
+#username,#email,#phone{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+    width: 500px;
+    height: 25px;
+    border: none;
+}
+.btn{
+    background-color: rgb(103, 173, 103);
+    width: 90px;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 7px; 
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);    
+}
+#msg{
+    align-items: left;
+    align-self: auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: -400px; 
+}
+h2{
+    font-family: "Arial", sans-serif;
+}
+.icon-container {
+    display: flex;
+    justify-content: center;
+}
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 10px; 
+    color: black; 
+}
+.icon-img {
+    width: 50px;
+    height: auto; 
+    margin-bottom: 5px; 
+}
+div.columns{
+    background-color: white;
+    box-shadow: 0 0 10px rgba(200, 200, 200, 0.5);
+    padding: 20px;
+    max-width: 94%;
+    margin: 0 auto; 
+    display: column;
+    flex-direction: column;  
+    font-family:Arial, Helvetica, sans-serif;
+}
+
