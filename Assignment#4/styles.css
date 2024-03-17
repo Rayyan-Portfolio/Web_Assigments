@@ -1,0 +1,13 @@
+/* CSS styles for forms */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.error {
+    color: red;
+}
